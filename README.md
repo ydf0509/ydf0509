@@ -32,6 +32,22 @@
                 演示复杂深层路径，完全不按照一般套路的目录格式的celery使用
             </td>
         </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/nb_filelock">nb_filelock</a>
+            </td>
+            <td>
+                <a href="https://github.com/ydf0509/tps_threadpool_executor">tps_threadpool_executor</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                pip install nb_filelock 使用磁盘文件作为介质，实现基于单台机器的跨进程跨解释器的分布式锁。
+            </td>
+            <td>
+                控频线程池，能够指定精确每秒运行多少次函数，而不是精确指定每秒多少个线程在并发
+            </td>
+        </tr>
     </table>
 </html>
 
