@@ -10,13 +10,15 @@
         </tr>
         <tr>
             <td>
+                pip install db_libs <br>
                 各种数据库的封装。只封装生成连接，很少添加新的方法调用原生方法这种写法。
             </td>
             <td>
-                async_pool_executor,its api like the concurrent.futures.使asyncio并发编程简化10倍
+                pip install async_pool_executor <br>
+                its api like the concurrent.futures.使asyncio并发编程简化10倍
             </td>
         </tr>
-                <tr>
+        <tr>
             <td>
                 <a href="https://github.com/ydf0509/object_pool_proj">object_pool_proj</a>
             </td>
@@ -26,6 +28,7 @@
         </tr>
         <tr>
             <td>
+                pip install universal_object_pool <br>
                 万能通用对象池，可以池化任意自定义类型的对象。
             </td>
             <td>
@@ -42,9 +45,11 @@
         </tr>
         <tr>
             <td>
-                pip install nb_filelock 使用磁盘文件作为介质，实现基于单台机器的跨进程跨解释器的分布式锁。
+                pip install nb_filelock <br>
+                使用磁盘文件作为介质，实现基于单台机器的跨进程跨解释器的分布式锁。
             </td>
             <td>
+                pip install tps_threadpool_executor <br>
                 控频线程池，能够指定精确每秒运行多少次函数，而不是精确指定每秒多少个线程在并发
             </td>
         </tr>
