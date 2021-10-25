@@ -18,6 +18,15 @@
                 its api like the concurrent.futures.使asyncio并发编程简化10倍
             </td>
         </tr>
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/sync2asyncio">sync2asyncio</a>
+            </td>
+            <td>
+                pip install sync2asyncio <br>
+                python 快速万能同步转异步语法
+            </td>
+        </tr>
         <tr>
             <td>
                 <a href="https://github.com/ydf0509/object_pool_proj">object_pool_proj</a>
@@ -26,7 +35,17 @@
             pip install universal_object_pool <br>
             通用对象池，可以池化任意自定义类型的对象，用于快速实现任意池(线程池除外)。
                         </td>
-            </tr>
+       </tr>
+          <tr>
+            <td>
+                <a href="https://github.com/ydf0509/nb_http_client">nb_http_client</a>
+            </td>
+            <td>
+                pip install nb_http_client    <br>
+                powred by object_pool_proj    <br>
+                nb_http_client 是 python 史上性能最强的http客户端，比任意请求包快很多倍
+            </td>
+        </tr>
             <tr>
             <td>
                 <a href="https://github.com/ydf0509/celery_demo">celery_demo</a>
@@ -55,12 +74,11 @@
         </tr>
         <tr>
             <td>
-                <a href="https://github.com/ydf0509/nb_http_client">nb_http_client</a>
+                <a href="https://github.com/ydf0509/auto_run_on_remote">auto_run_on_remote</a>
             </td>
             <td>
-                pip install nb_http_client    <br>
-                powred by object_pool_proj    <br>
-                nb_http_client 是 python 史上性能最强的http客户端，比任意请求包快很多倍
+                pip install auto_run_on_remote <br>
+                在本机点击运行一个python脚本，但自动使该脚本自动在远程linux机器上运行。
             </td>
         </tr>
     </table>
