@@ -58,7 +58,8 @@
                 <a href="https://github.com/ydf0509/nb_http_client">nb_http_client</a>
             </td>
             <td>
-                pip install nb_http_client <br>
+                pip install nb_http_client    <br>
+                powred by object_pool_proj    <br>
                 nb_http_client 是 python 史上性能最强的http客户端，比任意请求包快很多倍
             </td>
         </tr>
