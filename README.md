@@ -23,7 +23,8 @@
                 <a href="https://github.com/ydf0509/object_pool_proj">object_pool_proj</a>
             </td>
             <td>
-            用对象池，可以池化任意自定义类型的对象。
+            pip install universal_object_pool <br>
+            通用对象池，可以池化任意自定义类型的对象，用于快速实现任意池(线程池除外)。
                         </td>
             </tr>
             <tr>
