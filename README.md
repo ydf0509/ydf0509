@@ -81,6 +81,15 @@
                 在本机点击运行一个python脚本，但自动使该脚本自动在远程linux机器上运行。
             </td>
         </tr>
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/auto_restart">auto_restart</a>
+            </td>
+            <td>
+                pip install auto_restart <br>
+                自动重启冷部署工具。当检测到git内容发生变化时候，会自动重启服务，无需手动重启发版。
+            </td>
+        </tr>
     </table>
 </html>
 
