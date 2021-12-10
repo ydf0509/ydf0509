@@ -104,7 +104,7 @@
                 <a href="https://github.com/ydf0509/fastapi_use_distributed_framework_demo">fastapi_use_distributed_framework_demo</a>
             </td>
             <td>
-                fastapi 使用分布式函数调度框架 function_scheduling_distributed_framework 的 demo
+                fastapi 使用分布式函数调度框架 function_scheduling_distributed_framework 作为后台消费的 demo
             </td>
         </tr>
     </table>
