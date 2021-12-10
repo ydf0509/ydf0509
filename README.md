@@ -99,6 +99,14 @@
                 通用的装饰器基类，使写装饰器变得更简单。
             </td>
         </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/base_decorator">fastapi_use_distributed_framework_demo</a>
+            </td>
+            <td>
+                fastapi 使用分布式函数调度框架 function_scheduling_distributed_framework 的 demo
+            </td>
+        </tr>
     </table>
 </html>
 
