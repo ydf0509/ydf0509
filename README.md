@@ -107,6 +107,14 @@
                 fastapi 使用分布式函数调度框架 function_scheduling_distributed_framework 作为后台消费的 demo
             </td>
         </tr>
+         <tr>
+            <td>
+                <a href="https://github.com/ydf0509/https://github.com/ydf0509/distrubuted_framework_vs_celery_benchmark">https://github.com/ydf0509/distrubuted_framework_vs_celery_benchmark</a>
+            </td>
+            <td>
+                测试分布式函数调度框架 function_scheduling_distributed_framework 和celery的性能对比
+            </td>
+        </tr>
     </table>
 </html>
 
