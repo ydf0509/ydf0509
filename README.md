@@ -101,10 +101,19 @@
         </tr>
         <tr>
             <td>
-                <a href="https://github.com/ydf0509/fastapi_use_distributed_framework_demo">fastapi_use_distributed_framework_demo</a>
+                <a href="https://github.com/ydf0509/decorator_libs">decorator_libs</a>
             </td>
             <td>
-                fastapi 使用分布式函数调度框架 function_scheduling_distributed_framework 作为后台消费的 demo
+                pip install decorator_libs <br>
+                常用的日常通用装饰器大全
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/fastapi_use_funboost">fastapi_use_funboost</a>
+            </td>
+            <td>
+                fastapi 使用分布式函数调度框架 fastapi_use_funboost 作为后台消费的 demo
             </td>
         </tr>
          <tr>
