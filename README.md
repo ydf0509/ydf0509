@@ -124,6 +124,14 @@
                 使用严谨精确的控制变量法，测试分布式函数调度框架 function_scheduling_distributed_framework 和celery的性能对比
             </td>
         </tr>
+ <tr>
+            <td>
+                <a href="https://github.com/ydf0509/pythonpathdemo">pythonpathdemo</a>
+            </td>
+            <td>
+                用专门的项目说明掌握python的 PYTHONPATH的重要性，说明窗口会话临时环境变量和写死配置文件的永久性固定环境变量二者重大区别
+            </td>
+        </tr>
     </table>
 </html>
 
