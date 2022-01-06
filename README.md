@@ -118,10 +118,10 @@
         </tr>
          <tr>
             <td>
-                <a href="https://github.com/ydf0509/distrubuted_framework_vs_celery_benchmark">distrubuted_framework_vs_celery_benchmark</a>
+                <a href="https://github.com/ydf0509/distrubuted_framework_vs_celery_benchmark">funboost_vs_celery_benchmark</a>
             </td>
             <td>
-                使用严谨精确的控制变量法，测试分布式函数调度框架 function_scheduling_distributed_framework 和celery的性能对比
+                使用严谨精确的控制变量法，测试分布式函数调度框架 funboost 和celery的性能对比
             </td>
         </tr>
  <tr>
