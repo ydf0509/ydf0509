@@ -129,7 +129,7 @@
                 <a href="https://github.com/ydf0509/pythonpathdemo">pythonpathdemo</a>
             </td>
             <td>
-                用专门的项目说明掌握python的 PYTHONPATH的重要性，说明窗口会话临时环境变量和写死配置文件的永久性固定环境变量二者重大区别
+                用专门的项目说明掌握python的 PYTHONPATH的重要性；说明窗口会话临时环境变量和永久性环境变量区别；说明pythonpath的好处；说明pythonpath的妙用。学了PYTHONPATH 写几十个项目复用公共代码如虎添翼
             </td>
         </tr>
     </table>
