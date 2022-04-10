@@ -107,6 +107,15 @@
                 fastapi 使用分布式函数调度框架 function_scheduling_distributed_framework 作为后台消费的 demo
             </td>
         </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/pysnooper_click_able">pysnooper_click_able</a>
+            </td>
+            <td>
+                pip install pysnooper_click_able   神级别黑科技装饰器，实现难度5颗星。不用打断点不用到处加print的deubg工具，可以精确显示代码运行率轨迹并点击。
+                可以精确动态统计调用一个函数背后，python到底解释执行了多少行代码。
+            </td>
+        </tr>
          <tr>
             <td>
                 <a href="https://github.com/ydf0509/distrubuted_framework_vs_celery_benchmark">distrubuted_framework_vs_celery_benchmark</a>
