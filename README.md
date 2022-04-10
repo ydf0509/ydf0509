@@ -69,7 +69,7 @@
             </td>
             <td>
                 pip install tps_threadpool_executor <br>
-                控频线程池，能够指定精确每秒运行多少次函数，而不是精确指定每秒多少个线程在并发
+                控频线程池，能够指定精确每秒运行多少次函数，而不是精确指定程序线程池中同时多少个线程在并发
             </td>
         </tr>
         <tr>
@@ -101,10 +101,19 @@
         </tr>
         <tr>
             <td>
-                <a href="https://github.com/ydf0509/fastapi_use_distributed_framework_demo">fastapi_use_distributed_framework_demo</a>
+                <a href="https://github.com/ydf0509/decorator_libs">decorator_libs</a>
             </td>
             <td>
-                fastapi 使用分布式函数调度框架 function_scheduling_distributed_framework 作为后台消费的 demo
+                pip install decorator_libs <br>
+                常用的日常通用装饰器大全
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/fastapi_use_funboost">fastapi_use_funboost</a>
+            </td>
+            <td>
+                fastapi 使用分布式函数调度框架 fastapi_use_funboost 作为后台消费的 demo
             </td>
         </tr>
         <tr>
@@ -118,10 +127,18 @@
         </tr>
          <tr>
             <td>
-                <a href="https://github.com/ydf0509/distrubuted_framework_vs_celery_benchmark">distrubuted_framework_vs_celery_benchmark</a>
+                <a href="https://github.com/ydf0509/distrubuted_framework_vs_celery_benchmark">funboost_vs_celery_benchmark</a>
             </td>
             <td>
-                使用严谨精确的控制变量法，测试分布式函数调度框架 function_scheduling_distributed_framework 和celery的性能对比
+                使用严谨精确的控制变量法，测试分布式函数调度框架 funboost 和celery的性能对比
+            </td>
+        </tr>
+ <tr>
+            <td>
+                <a href="https://github.com/ydf0509/pythonpathdemo">pythonpathdemo</a>
+            </td>
+            <td>
+                用专门的项目说明掌握python的 PYTHONPATH的重要性；说明窗口会话临时环境变量和永久性环境变量区别；说明pythonpath的好处；说明pythonpath的妙用。学了PYTHONPATH 写几十个项目复用公共代码如虎添翼
             </td>
         </tr>
     </table>
