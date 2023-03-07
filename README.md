@@ -78,7 +78,7 @@
             </td>
             <td>
                 pip install auto_run_on_remote <br>
-                在本机点击运行一个python脚本，但自动使该脚本自动在远程linux机器上运行。
+                在本机点击运行一个python脚本，但自动使该脚本自动在远程linux机器上运行。方便程度暴击pycahrm 专业版调用远程linux解释器
             </td>
         </tr>
         <tr>
