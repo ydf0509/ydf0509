@@ -116,6 +116,14 @@
                 fastapi 使用分布式函数调度框架 fastapi_use_funboost 作为后台消费的 demo
             </td>
         </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/uwsgi_flask_funboost">uwsgi_flask_funboost</a>
+            </td>
+            <td>
+                fastapi 使用分布式函数调度框架 uwsgi部署flask + funboost 作为后台消费的 demo
+            </td>
+        </tr>
          <tr>
             <td>
                 <a href="https://github.com/ydf0509/distrubuted_framework_vs_celery_benchmark">funboost_vs_celery_benchmark</a>
