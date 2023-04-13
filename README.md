@@ -78,7 +78,8 @@
             </td>
             <td>
                 pip install auto_run_on_remote <br>
-                在本机点击运行一个python脚本，但自动使该脚本自动在远程linux机器上运行。
+                在本机点击运行一个python脚本，但自动使该脚本自动在远程linux机器上运行。<br>
+                方便程度暴击pycahrm 专业版调用远程linux解释器
             </td>
         </tr>
         <tr>
@@ -130,6 +131,15 @@
             </td>
             <td>
                 使用严谨精确的控制变量法，测试分布式函数调度框架 funboost 和celery的性能对比
+            </td>
+        </tr>
+  <tr>
+            <td>
+                <a href="https://github.com/ydf0509/pysnooper_click_able">pysnooper_click_able</a>
+            </td>
+            <td>
+                pip install pysnooper_click_able   神级别黑科技装饰器，实现难度5颗星。不用打断点不用到处加print的deubg工具，可以精确显示代码运行率轨迹并点击。
+                可以精确动态统计调用一个函数背后，python到底解释执行了多少行代码，让你对函数消耗的cpu资源了如指掌。
             </td>
         </tr>
  <tr>
