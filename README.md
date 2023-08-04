@@ -18,6 +18,16 @@
                 its api like the concurrent.futures.使asyncio并发编程简化10倍
             </td>
         </tr>
+         <tr>
+            <td>
+                <a href="https://github.com/ydf0509/flexible_thread_pool">flexible_thread_pool</a>
+            </td>
+            <td>
+                pip install flexible_thread_pool <br>
+                flexible_thread_pool 支持同步函数和 acync def 的 异步函数并发执行。
+                可扩大和自动缩小的线程池，比 threadpool_executor_shrink_able 实现更简单的线程池，性能超过 concurrent.futures.ThreadpoolExecutor 200%
+            </td>
+        </tr>
         <tr>
             <td>
                 <a href="https://github.com/ydf0509/sync2asyncio">sync2asyncio</a>
