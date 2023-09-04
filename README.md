@@ -69,7 +69,7 @@
                 <a href="https://github.com/ydf0509/funboost_support_celery_demo">funboost_support_celery_demo</a>
             </td>
             <td>
-                演示复杂深层路径，完全不按照一般套路的目录格式,使用funboost来自动化操作celery,代码及其简单
+                演示复杂深层路径，完全不按照一般套路的目录格式,使用funboost来自动化配置和操作celery,代码极其简化
             </td>
         </tr>
         <tr>
