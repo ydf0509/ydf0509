@@ -56,12 +56,20 @@
                 nb_http_client 是 python 史上性能最强的http客户端，比任意请求包快很多倍
             </td>
         </tr>
-            <tr>
+        <tr>
             <td>
                 <a href="https://github.com/ydf0509/celery_demo">celery_demo</a>
             </td>
             <td>
                 演示复杂深层路径，完全不按照一般套路的目录格式的celery使用
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/funboost_support_celery_demo">funboost_support_celery_demo</a>
+            </td>
+            <td>
+                演示复杂深层路径，完全不按照一般套路的目录格式,使用funboost来自动化操作celery,代码及其简单
             </td>
         </tr>
         <tr>
