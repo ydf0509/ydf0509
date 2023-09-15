@@ -168,6 +168,15 @@
                 用专门的项目说明掌握python的 PYTHONPATH的重要性；说明窗口会话临时环境变量和永久性环境变量区别；说明pythonpath的好处；说明pythonpath的妙用。学了PYTHONPATH 写几十个项目复用公共代码如虎添翼
             </td>
         </tr>
+ <tr>
+            <td>
+                <a href="https://github.com/ydf0509/kuai_log">kuai_log</a>
+            </td>
+            <td>
+                pip install kuai_log
+                速度最快的python日志,比nb_log更简单简化,没有三方包依赖和无需配置文件
+            </td>
+        </tr>
     </table>
 </html>
 
