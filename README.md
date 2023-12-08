@@ -143,6 +143,14 @@
                   uwsgi部署flask + funboost 作为后台消费的 demo
             </td>
         </tr>
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/django_use_funboost">django_use_funboost</a>
+            </td>
+            <td>
+                  dajngo + funboost 作为后台消费的 demo
+            </td>
+        </tr>
          <tr>
             <td>
                 <a href="https://github.com/ydf0509/distrubuted_framework_vs_celery_benchmark">funboost_vs_celery_benchmark</a>
