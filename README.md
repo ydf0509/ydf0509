@@ -151,6 +151,14 @@
                   dajngo + funboost 作为后台消费的 demo
             </td>
         </tr>
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/funboost_django_orm_demo">funboost_django_orm_demo</a>
+            </td>
+            <td>
+                  dajngo + funboost + 函数中操作了orm ,作为后台消费的 demo
+            </td>
+        </tr>
          <tr>
             <td>
                 <a href="https://github.com/ydf0509/distrubuted_framework_vs_celery_benchmark">funboost_vs_celery_benchmark</a>
