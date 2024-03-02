@@ -75,6 +75,14 @@
         </tr>
         <tr>
             <td>
+                <a href="https://github.com/ydf0509/funboost_support_celery_demo">funboost_support_celery_demo</a>
+            </td>
+            <td>
+                演示复杂深层路径，完全不按照一般套路的目录格式,使用funboost来自动化配置和操作celery,代码极其简化
+            </td>
+        </tr>
+        <tr>
+            <td>
                 <a href="https://github.com/ydf0509/nb_filelock">nb_filelock</a>
             </td>
             <td>
@@ -144,6 +152,22 @@
                   uwsgi部署flask + funboost 作为后台消费的 demo
             </td>
         </tr>
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/django_use_funboost">django_use_funboost</a>
+            </td>
+            <td>
+                  dajngo + funboost 作为后台消费的 demo
+            </td>
+        </tr>
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/funboost_django_orm_demo">funboost_django_orm_demo</a>
+            </td>
+            <td>
+                  dajngo + funboost + 函数中操作了orm ,作为后台消费的 demo
+            </td>
+        </tr>
          <tr>
             <td>
                 <a href="https://github.com/ydf0509/distrubuted_framework_vs_celery_benchmark">funboost_vs_celery_benchmark</a>
@@ -167,6 +191,15 @@
             </td>
             <td>
                 用专门的项目说明掌握python的 PYTHONPATH的重要性；说明窗口会话临时环境变量和永久性环境变量区别；说明pythonpath的好处；说明pythonpath的妙用。学了PYTHONPATH 写几十个项目复用公共代码如虎添翼
+            </td>
+        </tr>
+ <tr>
+            <td>
+                <a href="https://github.com/ydf0509/kuai_log">kuai_log</a>
+            </td>
+            <td>
+                pip install kuai_log
+                速度最快的python日志,比nb_log更简单简化,没有三方包依赖和无需配置文件
             </td>
         </tr>
     </table>
