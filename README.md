@@ -1,5 +1,14 @@
 <html lang="ch">
     <table style="margin-left: auto; margin-right: auto;">
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/db_time"></a>
+            </td>
+            <td>
+                pip install nb_time <br>
+                面向对象封装的NbTime 时间类，方便时间转化和时区支持，支持无限链式操作，用法暴击亲自使用 datetime 和 三方 arrow 包
+            </td>
+        </tr>
         <tr>
             <td>
                 <a href="https://github.com/ydf0509/db_libs">db_libs</a>
