@@ -2,7 +2,7 @@
     <table style="margin-left: auto; margin-right: auto;">
 <tr>
             <td>
-                <a href="https://github.com/ydf0509/db_time"></a>
+                <a href="https://github.com/ydf0509/nb_time">nb_time</a>
             </td>
             <td>
                 pip install nb_time <br>
