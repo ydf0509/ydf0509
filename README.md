@@ -6,7 +6,8 @@
             </td>
             <td>
                 pip install nb_time <br>
-                面向对象封装的NbTime 时间类，方便时间转化和时区支持，支持无限链式操作，用法暴击亲自使用 datetime 和 三方 arrow 包，和面向过程工程师在time_utils.py写几百个时间转换函数
+               面向对象封装的NbTime 时间类，方便时间转化和时区支持，支持无限链式操作，用法暴击亲自使用 datetime 和 三方 arrow 包 <br>
+               比面向过程工程师在time_utils.py写几百个孤立的时间转换函数用法方便太多。
             </td>
         </tr>
         <tr>
