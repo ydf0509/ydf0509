@@ -204,6 +204,15 @@
                 速度最快的python日志,比nb_log更简单简化,没有三方包依赖和无需配置文件
             </td>
         </tr>
+ <tr>
+            <td>
+                <a href="https://github.com/ydf0509/realtime_web_logs">realtime_web_logs</a>
+            </td>
+            <td>
+                pip install realtime_web_logs
+                文件日志实时显示到web页面。附带全系统硬盘的文件浏览下载功能。支持日志显示自动滚动和暂停。
+            </td>
+        </tr>
     </table>
 </html>
 
