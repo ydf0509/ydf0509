@@ -11,6 +11,15 @@
                NbTime 能把任意格式的时间字符串转成时间对象，无需精确的提前写yyyy-mm-dd这样的字符串模板。
             </td>
         </tr>
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/nb_path">nb_path</a>
+            </td>
+            <td>
+                pip install nb_path <br>
+               A Python path library that gives filesystem operations superpowers
+            </td>
+        </tr>
         <tr>
             <td>
                 <a href="https://github.com/ydf0509/db_libs">db_libs</a>
