@@ -26,8 +26,8 @@
             </td>
             <td>
                 pip install very_nb_api <br>
-                为你的数据模型闪电般地生成基于 fastapi 的 CRUD API 常规接口，减少简单重复劳动。支持 <br>
-                orm 支持 同步SQLModel、异步 SQLModel、SQLAlchemy、Tortoise ORM
+                为你的数据模型闪电般地生成基于 fastapi 的 CRUD API 常规接口，减少简单重复劳动。 <br>
+                orm 类型支持 同步SQLModel、异步 SQLModel、SQLAlchemy、Tortoise ORM
             </td>
         </tr>
         <tr>
