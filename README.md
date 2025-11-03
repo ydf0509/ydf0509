@@ -13,6 +13,16 @@
         </tr>
 <tr>
             <td>
+                <a href="https://github.com/ydf0509/nb_api">nb_api</a>
+            </td>
+            <td>
+                pip install very_nb_api <br>
+                为你的数据模型闪电般地生成基于 fastapi 的 CRUD API 常规接口，减少简单重复劳动。 <br>
+                orm 类型支持 同步SQLModel、异步 SQLModel、SQLAlchemy、Tortoise ORM
+            </td>
+        </tr>
+<tr>
+            <td>
                 <a href="https://github.com/ydf0509/nb_path">nb_path</a>
             </td>
             <td>
@@ -22,12 +32,11 @@
         </tr>
 <tr>
             <td>
-                <a href="https://github.com/ydf0509/nb_api">nb_api</a>
+                <a href="https://github.com/ydf0509/nb_aiopool">nb_aiopool</a>
             </td>
             <td>
-                pip install very_nb_api <br>
-                为你的数据模型闪电般地生成基于 fastapi 的 CRUD API 常规接口，减少简单重复劳动。 <br>
-                orm 类型支持 同步SQLModel、异步 SQLModel、SQLAlchemy、Tortoise ORM
+                pip install nb_aiopool <br>
+               python asyncio 异步并发池3种实现，不仅限制并发数量，最主要是有背压机制
             </td>
         </tr>
         <tr>
