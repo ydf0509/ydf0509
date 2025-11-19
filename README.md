@@ -31,6 +31,16 @@
             </td>
         </tr>
 <tr>
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/nb_path">nb_ai_context</a>
+            </td>
+            <td>
+                pip install nb_ai_context <br>
+                非常强力好用的对任意it项目生成生成 ai上下文到一个单独markdown文档，传给ai大模型或者知识库，非常好用。
+            </td>
+        </tr>
+<tr>
             <td>
                 <a href="https://github.com/ydf0509/nb_aiopool">nb_aiopool</a>
             </td>
