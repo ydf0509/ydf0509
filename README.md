@@ -1,101 +1,283 @@
-<div align="center">
+<html lang="ch">
+    <table style="margin-left: auto; margin-right: auto;">
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/nb_time">nb_time</a>
+            </td>
+            <td>
+                pip install nb_time <br>
+               面向对象封装的NbTime 时间类，方便时间转化和时区支持，支持无限链式操作，用法暴击亲自使用 datetime 和 三方 arrow 包 <br>
+               比面向过程工程师在time_utils.py写几百个孤立的时间转换函数用法方便太多。<br>
+               NbTime 能把任意格式的时间字符串转成时间对象，无需精确的提前写yyyy-mm-dd这样的字符串模板。
+            </td>
+        </tr>
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/nb_api">nb_api</a>
+            </td>
+            <td>
+                pip install very_nb_api <br>
+                为你的数据模型闪电般地生成基于 fastapi 的 CRUD API 常规接口，减少简单重复劳动。 <br>
+                orm 类型支持 同步SQLModel、异步 SQLModel、SQLAlchemy、Tortoise ORM
+            </td>
+        </tr>
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/nb_path">nb_path</a>
+            </td>
+            <td>
+                pip install nb_path <br>
+               A Python path library that gives filesystem operations superpowers
+            </td>
+        </tr>
+<tr>
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/nb_ai_context">nb_ai_context</a>
+            </td>
+            <td>
+                pip install nb_ai_context <br>
+                非常强力好用的对任意it项目生成生成 ai上下文到一个单独markdown文档，传给ai大模型或者知识库，非常好用。
+            </td>
+        </tr>
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/nb_aiopool">nb_aiopool</a>
+            </td>
+            <td>
+                pip install nb_aiopool <br>
+               python asyncio 异步并发池3种实现，不仅限制并发数量，最主要是有背压机制
+            </td>
+        </tr>
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/nb_aiohttp">nb_aiohttp</a>
+            </td>
+            <td>
+                pip install nb_aiohttp<br>
+                更好用的 aiohttp ,性能比 httpx高300%
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/db_libs">db_libs</a>
+            </td>
+            <td>
+                 pip install db_libs <br>
+                各种数据库的封装。只封装生成连接，很少添加新的方法调用原生方法这种写法。
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/async_pool_executor">async_pool_executor</a>
+            </td>
+            <td>
+                pip install async_pool_executor <br>
+                its api like the concurrent.futures.使asyncio并发编程简化10倍
+            </td>
+        </tr>
+         <tr>
+            <td>
+                <a href="https://github.com/ydf0509/flexible_thread_pool">flexible_thread_pool</a>
+            </td>
+            <td>
+                pip install flexible_thread_pool <br>
+                flexible_thread_pool 支持同步函数和 acync def 的 异步函数并发执行。
+                可扩大和自动缩小的线程池，比 threadpool_executor_shrink_able 实现更简单的线程池，性能超过 concurrent.futures.ThreadpoolExecutor 200%
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/sync2asyncio">sync2asyncio</a>
+            </td>
+            <td>
+                pip install sync2asyncio <br>
+                python 快速万能同步转异步语法
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/object_pool_proj">object_pool_proj</a>
+            </td>
+            <td>
+            pip install universal_object_pool <br>
+            通用对象池，可以池化任意自定义类型的对象，用于快速实现任意池(线程池除外)。
+                        </td>
+       </tr>
+          <tr>
+            <td>
+                <a href="https://github.com/ydf0509/nb_http_client">nb_http_client</a>
+            </td>
+            <td>
+                pip install nb_http_client    <br>
+                powred by object_pool_proj    <br>
+                nb_http_client 是 python 史上性能最强的http客户端，比任意请求包快很多倍
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/celery_demo">celery_demo</a>
+            </td>
+            <td>
+                演示复杂深层路径，完全不按照一般套路的目录格式的celery使用
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/funboost_support_celery_demo">funboost_support_celery_demo</a>
+            </td>
+            <td>
+                演示复杂深层路径，完全不按照一般套路的目录格式,使用funboost来自动化配置和操作celery,代码极其简化
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/nb_filelock">nb_filelock</a>
+            </td>
+            <td>
+                pip install nb_filelock <br>
+                使用磁盘文件作为介质，实现基于单台机器的跨进程跨解释器的分布式锁。
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/tps_threadpool_executor">tps_threadpool_executor</a>
+            </td>
+            <td>
+                pip install tps_threadpool_executor <br>
+                控频线程池，能够指定精确每秒运行多少次函数，而不是精确指定程序线程池中同时多少个线程在并发
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/auto_run_on_remote">auto_run_on_remote</a>
+            </td>
+            <td>
+                pip install auto_run_on_remote <br>
+                在本机点击运行一个python脚本，但自动使该脚本自动在远程linux机器上运行。<br>
+                方便程度暴击pycahrm 专业版调用远程linux解释器
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/auto_restart">auto_restart</a>
+            </td>
+            <td>
+                pip install auto_restart <br>
+                自动重启冷部署工具。当检测到git内容发生变化时候，会自动重启服务，无需手动重启发版。
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/base_decorator">base_decorator</a>
+            </td>
+            <td>
+                pip install base_decorator <br>
+                通用的装饰器基类，使写装饰器变得更简单。
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/decorator_libs">decorator_libs</a>
+            </td>
+            <td>
+                pip install decorator_libs <br>
+                常用的日常通用装饰器大全
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/fastapi_use_funboost">fastapi_use_funboost</a>
+            </td>
+            <td>
+                fastapi 使用分布式函数调度框架 fastapi_use_funboost 作为后台消费的 demo
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="https://github.com/ydf0509/uwsgi_flask_funboost">uwsgi_flask_funboost</a>
+            </td>
+            <td>
+                  uwsgi部署flask + funboost 作为后台消费的 demo
+            </td>
+        </tr>
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/django_use_funboost">django_use_funboost</a>
+            </td>
+            <td>
+                  dajngo + funboost 作为后台消费的 demo
+            </td>
+        </tr>
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/funboost_django_orm_demo">funboost_django_orm_demo</a>
+            </td>
+            <td>
+                  dajngo + funboost + 函数中操作了orm ,作为后台消费的 demo
+            </td>
+        </tr>
+         <tr>
+            <td>
+                <a href="https://github.com/ydf0509/distrubuted_framework_vs_celery_benchmark">funboost_vs_celery_benchmark</a>
+            </td>
+            <td>
+                使用严谨精确的控制变量法，测试分布式函数调度框架 funboost 和celery的性能对比
+            </td>
+        </tr>
+  <tr>
+            <td>
+                <a href="https://github.com/ydf0509/pysnooper_click_able">pysnooper_click_able</a>
+            </td>
+            <td>
+                pip install pysnooper_click_able   神级别黑科技装饰器，实现难度5颗星。不用打断点不用到处加print的deubg工具，可以精确显示代码运行率轨迹并点击。
+                可以精确动态统计调用一个函数背后，python到底解释执行了多少行代码，让你对函数消耗的cpu资源了如指掌。
+            </td>
+        </tr>
 
-# ✨ ydf0509's Project Showcase ✨
+ <tr>
+            <td>
+                <a href="https://github.com/ydf0509/kuai_log">kuai_log</a>
+            </td>
+            <td>
+                pip install kuai_log
+                速度最快的python日志,比nb_log更简单简化,没有三方包依赖和无需配置文件
+            </td>
+        </tr>
+ <tr>
+            <td>
+                <a href="https://github.com/ydf0509/realtime_web_logs">realtime_web_logs</a>
+            </td>
+            <td>
+                pip install realtime_web_logs
+                文件日志实时显示到web页面。附带全系统硬盘的文件浏览下载功能。支持日志显示自动滚动和暂停。
+            </td>
+        </tr>
+         <tr>
+            <td>
+                <a href="https://github.com/ydf0509/pythonpathdemo">pythonpathdemo</a>
+            </td>
+            <td>
+                用专门的项目说明掌握python的 PYTHONPATH的重要性；说明窗口会话临时环境变量和永久性环境变量区别；说明pythonpath的好处；说明pythonpath的妙用。学了PYTHONPATH 写几十个项目复用公共代码如虎添翼
+            </td>
+        </tr>
+ <tr>
+            <td>
+                <a href="https://github.com/ydf0509/pyhton-oop-4step">pyhton-oop-4step</a>
+            </td>
+            <td>
+                python 万能通用 oop面向对象编程四步转化公式，面向过程转面向对象的万能可具体落地非抽象的4步转化公式。
+            </td>
+        </tr>
+    </table>
+</html>
 
-**一个热衷于创造高效、易用、强大 Python 工具的开发者。**
 
-</div>
 
----
 
-### 🚀 我的开源项目
 
-在这里，你可以找到我开发的一系列 Python 库和工具，旨在简化开发流程、提升代码质量和运行效率。
 
-<br>
 
-<details>
-<summary><strong>🐍 Python 异步与性能优化</strong></summary>
-<br>
 
-| 项目 | 描述 |
-| --- | --- |
-| **[nb_aiopool](https://github.com/ydf0509/nb_aiopool)** <br> [![PyPI version](https://badge.fury.io/py/nb-aiopool.svg)](https://badge.fury.io/py/nb-aiopool) | Python asyncio 异步并发池的三种实现，不仅能限制并发数量，更重要的是具备背压（backpressure）机制，防止任务积压。 |
-| **[async_pool_executor](https://github.com/ydf0509/async_pool_executor)** <br> [![PyPI version](https://badge.fury.io/py/async-pool-executor.svg)](https://badge.fury.io/py/async-pool-executor) | 提供了类似 `concurrent.futures` 的 API，能将 asyncio 并发编程的复杂度降低10倍，让异步代码更简洁。 |
-| **[flexible_thread_pool](https://github.com/ydf0509/flexible_thread_pool)** <br> [![PyPI version](https://badge.fury.io/py/flexible-thread-pool.svg)](https://badge.fury.io/py/flexible-thread-pool) | 一个可自动伸缩的智能线程池，同时支持同步与异步任务。性能超越 `concurrent.futures.ThreadPoolExecutor` 200%。 |
-| **[sync2asyncio](https://github.com/ydf0509/sync2asyncio)** <br> [![PyPI version](https://badge.fury.io/py/sync2asyncio.svg)](https://badge.fury.io/py/sync2asyncio) | 一个神奇的库，让你用最简单的方式将同步代码转换为异步代码，轻松拥抱异步生态。 |
-| **[tps_threadpool_executor](https://github.com/ydf0509/tps_threadpool_executor)** <br> [![PyPI version](https://badge.fury.io/py/tps-threadpool-executor.svg)](https://badge.fury.io/py/tps-threadpool-executor) | 控频线程池，可以精确控制函数每秒的执行次数（TPS），适用于需要稳定速率的场景。 |
-| **[nb_http_client](https://github.com/ydf0509/nb_http_client)** <br> [![PyPI version](https://badge.fury.io/py/nb-http-client.svg)](https://badge.fury.io/py/nb-http-client) | 基于 `object_pool_proj` 构建，可能是 Python 史上性能最强的 HTTP 客户端，速度远超其他请求库。 |
 
-<br>
-</details>
 
-<details>
-<summary><strong>🛠️ 开发工具与框架增强</strong></summary>
-<br>
-
-| 项目 | 描述 |
-| --- | --- |
-| **[nb_api](https://github.com/ydf0509/nb_api)** <br> [![PyPI version](https://badge.fury.io/py/very-nb-api.svg)](https://badge.fury.io/py/very-nb-api) | 为你的数据模型闪电般生成基于 FastAPI 的 CRUD API，支持多种 ORM，大幅减少重复劳动。 |
-| **[nb_time](https://github.com/ydf0509/nb_time)** <br> [![PyPI version](https://badge.fury.io/py/nb-time.svg)](https://badge.fury.io/py/nb-time) | 面向对象的 `NbTime` 时间类，支持链式操作、时区转换和智能字符串解析，用法远超原生 `datetime` 和 `arrow`。 |
-| **[nb_path](https://github.com/ydf0509/nb_path)** <br> [![PyPI version](https://badge.fury.io/py/nb-path.svg)](https://badge.fury.io/py/nb-path) | 一个为文件系统操作赋予超能力的 Python 路径库，让路径处理更直观、更强大。 |
-| **[db_libs](https://github.com/ydf0509/db_libs)** <br> [![PyPI version](https://badge.fury.io/py/db-libs.svg)](https://badge.fury.io/py/db-libs) | 各种数据库连接的轻量级封装，专注于生成连接，不改变原生调用习惯。 |
-| **[object_pool_proj](https://github.com/ydf0509/object_pool_proj)** <br> [![PyPI version](https://badge.fury.io/py/universal-object-pool.svg)](https://badge.fury.io/py/universal-object-pool) | 通用对象池，可以池化任何自定义类型的对象，是构建高性能池化系统的基础。 |
-| **[base_decorator](https://github.com/ydf0509/base_decorator)** <br> [![PyPI version](https://badge.fury.io/py/base-decorator.svg)](https://badge.fury.io/py/base-decorator) | 通用的装饰器基类，让编写结构清晰、易于维护的装饰器变得前所未有的简单。 |
-| **[decorator_libs](https://github.com/ydf0509/decorator_libs)** <br> [![PyPI version](https://badge.fury.io/py/decorator-libs.svg)](https://badge.fury.io/py/decorator-libs) | 一个包含了大量常用通用装饰器的百宝箱，开箱即用。 |
-
-<br>
-</details>
-
-<details>
-<summary><strong>🔍 调试、日志与部署</strong></summary>
-<br>
-
-| 项目 | 描述 |
-| --- | --- |
-| **[pysnooper_click_able](https://github.com/ydf0509/pysnooper_click_able)** <br> [![PyPI version](https://badge.fury.io/py/pysnooper-click-able.svg)](https://badge.fury.io/py/pysnooper-click-able) | 神级黑科技调试工具！无需断点和 `print`，精确显示代码运行轨迹并可点击，动态统计函数背后的代码执行行数。 |
-| **[kuai_log](https://github.com/ydf0509/kuai_log)** <br> [![PyPI version](https://badge.fury.io/py/kuai-log.svg)](https://badge.fury.io/py/kuai-log) | 追求极致性能的 Python 日志库，比 `nb_log` 更简单、更快速，无任何三方依赖。 |
-| **[realtime_web_logs](https://github.com/ydf0509/realtime_web_logs)** <br> [![PyPI version](https://badge.fury.io/py/realtime-web-logs.svg)](https://badge.fury.io/py/realtime-web-logs) | 将文件日志实时展示在 Web 页面，并附带文件浏览和下载功能，是远程调试和监控的利器。 |
-| **[auto_run_on_remote](https://github.com/ydf0509/auto_run_on_remote)** <br> [![PyPI version](https://badge.fury.io/py/auto-run-on-remote.svg)](https://badge.fury.io/py/auto-run-on-remote) | 在本机点击运行脚本，却能自动在远程 Linux 上执行。方便程度远超 PyCharm 专业版的远程解释器。 |
-| **[auto_restart](https://github.com/ydf0509/auto_restart)** <br> [![PyPI version](https://badge.fury.io/py/auto-restart.svg)](https://badge.fury.io/py/auto-restart) | 简单高效的自动重启（冷部署）工具。当检测到 Git 仓库更新时，自动重启服务，解放双手。 |
-| **[nb_filelock](https://github.com/ydf0509/nb_filelock)** <br> [![PyPI version](https://badge.fury.io/py/nb-filelock.svg)](https://badge.fury.io/py/nb-filelock) | 使用磁盘文件作为介质，实现单机跨进程、跨解释器的分布式锁。 |
-
-<br>
-</details>
-
-<details>
-<summary><strong>🤖 AI 与框架集成</strong></summary>
-<br>
-
-| 项目 | 描述 |
-| --- | --- |
-| **[nb_ai_context](https://github.com/ydf0509/nb_ai_context)** <br> [![PyPI version](https://badge.fury.io/py/nb-ai-context.svg)](https://badge.fury.io/py/nb-ai-context) | 极其强大的工具，能将任何 IT 项目的结构和代码生成 AI 上下文，方便与大语言模型或知识库集成。 |
-| **[funboost_support_celery_demo](https://github.com/ydf0509/funboost_support_celery_demo)** | 演示如何使用 `funboost` 来自动化配置和操作 Celery，即使在复杂的项目结构下也能极大简化代码。 |
-| **[fastapi_use_funboost](https://github.com/ydf0509/fastapi_use_funboost)** | 演示 FastAPI 如何与分布式函数调度框架 `funboost` 结合，处理后台耗时任务。 |
-| **[uwsgi_flask_funboost](https://github.com/ydf0509/uwsgi_flask_funboost)** | 演示如何通过 uWSGI 部署一个 Flask 应用，并使用 `funboost` 作为其后台任务队列。 |
-| **[django_use_funboost](https://github.com/ydf0509/django_use_funboost)** | 演示 Django 项目如何集成 `funboost` 来处理后台任务。 |
-| **[funboost_django_orm_demo](https://github.com/ydf0509/funboost_django_orm_demo)** | 在 `funboost` 的后台任务函数中直接操作 Django ORM 的示例。 |
-| **[distrubuted_framework_vs_celery_benchmark](https://github.com/ydf0509/distrubuted_framework_vs_celery_benchmark)** | 采用严谨的控制变量法，对 `funboost` 和 `Celery` 两个分布式框架进行深度性能对比测试。 |
-
-<br>
-</details>
-
-<details>
-<summary><strong>🎓 编程理念与教程</strong></summary>
-<br>
-
-| 项目 | 描述 |
-| --- | --- |
-| **[pythonpathdemo](https://github.com/ydf0509/pythonpathdemo)** | 通过实例深入讲解 `PYTHONPATH` 的重要性、使用技巧及其在大型项目中的妙用，助你轻松管理代码复用。 |
-| **[pyhton-oop-4step](https://github.com/ydf0509/pyhton-oop-4step)** | 提出一个万能、可落地的四步转化公式，帮助开发者将面向过程的代码轻松重构为面向对象的设计。 |
-
-<br>
-</details>
-
----
-
-<div align="center">
-
-**感谢关注！如果我的项目对您有帮助，请不要吝啬您的 ⭐️ Star！**
-
-</div>
