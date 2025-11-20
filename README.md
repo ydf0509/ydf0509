@@ -37,7 +37,8 @@
             </td>
             <td>
                 pip install nb_ai_context <br>
-                非常强力好用的对任意it项目生成生成 ai上下文到一个单独markdown文档，传给ai大模型或者知识库，非常好用。
+                非常强力好用的对任意it项目生成生成 ai上下文到一个单独markdown文档，传给ai大模型或者知识库，非常好用。<br>
+                本人实测，nb_ai_context 生成的markdown，对大型编程项目的编程效果 远远地吊打在 cursor trae qoder claude-code gemini-code-assit 等ai ide写代码
             </td>
         </tr>
 <tr>
