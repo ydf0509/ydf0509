@@ -33,6 +33,17 @@
 <tr>
 <tr>
             <td>
+                <a href="https://github.com/ydf0509/nb_cache">nb_cache</a>
+            </td>
+            <td>
+               pip install nb_cache <br>
+               python中功能最全面的缓存包，支持同步和异步函数。<br>
+               支持内存 redis 两级缓存。
+            </td>
+</tr>
+
+<tr>
+            <td>
                 <a href="https://github.com/ydf0509/nb_ai_context">nb_ai_context</a>
             </td>
             <td>
