@@ -37,8 +37,7 @@
             </td>
             <td>
                pip install nb_cache <br>
-               python中功能最全面的缓存包，支持同步和异步函数。<br>
-               支持内存 redis 两级缓存。
+               python中功能最全面的缓存包，支持同步和异步函数。支持内存 redis 两级缓存。
             </td>
 </tr>
 
@@ -54,6 +53,21 @@
             </td>
         </tr>
 <tr>
+
+<tr>
+            <td>
+                <a href="https://github.com/ydf0509/nb_ai_context">nb_ai_context</a>
+            </td>
+            <td>
+                pip install nb_cmd <br>
+                python 种最简单方式构建最复杂命令行的三方包，比click包简单百倍，但功能更强大。
+                万能接口生成器——你写一个 Python class，自动获得 CLI + REST API + Web UI + Python 直接调用 四种操作方式，<br>
+                堪称python界低代码平台
+            </td>
+        </tr>
+
+<tr>
+
             <td>
                 <a href="https://github.com/ydf0509/nb_aiopool">nb_aiopool</a>
             </td>
