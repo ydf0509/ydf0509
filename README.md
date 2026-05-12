@@ -56,7 +56,7 @@
 
 <tr>
             <td>
-                <a href="https://github.com/ydf0509/nb_cmd">nb_ai_context</a>
+                <a href="https://github.com/ydf0509/nb_cmd">nb_cmd</a>
             </td>
             <td>
                 pip install nb_cmd <br>
