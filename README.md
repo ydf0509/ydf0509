@@ -56,7 +56,7 @@
 
 <tr>
             <td>
-                <a href="https://github.com/ydf0509/nb_ai_context">nb_ai_context</a>
+                <a href="https://github.com/ydf0509/nb_cmd">nb_ai_context</a>
             </td>
             <td>
                 pip install nb_cmd <br>
@@ -67,7 +67,6 @@
         </tr>
 
 <tr>
-
             <td>
                 <a href="https://github.com/ydf0509/nb_aiopool">nb_aiopool</a>
             </td>
